@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Send coins to a Mastercoin address</source>
-        <translation>Verstuur Mastercoin naar een Dashadres</translation>
+        <translation>Verstuur Mastercoin naar een Mastercoinadres</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -379,7 +379,7 @@
     </message>
     <message>
         <source>Sign messages with your Mastercoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Dashadressen om te bewijzen dat u deze adressen bezit.</translation>
+        <translation>Onderteken berichten met uw Mastercoinadressen om te bewijzen dat u deze adressen bezit.</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Mastercoin addresses</source>
-        <translation>Verifieer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Dashadressen.</translation>
+        <translation>Verifieer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Mastercoinadressen.</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -1500,7 +1500,7 @@ Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer 
     </message>
     <message>
         <source>Connect to the Mastercoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met Dashnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
+        <translation>Maak verbinding met Mastercoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -2017,7 +2017,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
     </message>
     <message>
         <source>Enter a Mastercoin address (e.g. %1)</source>
-        <translation>Voer een Dashadres in (bijv. %1)</translation>
+        <translation>Voer een Mastercoinadres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3038,7 +3038,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Mastercoin 
     </message>
     <message>
         <source>The Mastercoin address to send the payment to</source>
-        <translation>Het Dashadres om betaling aan te versturen</translation>
+        <translation>Het Mastercoinadres om betaling aan te versturen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3143,7 +3143,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Mastercoin 
     </message>
     <message>
         <source>The Mastercoin address to sign the message with</source>
-        <translation>Het Dashadres om bericht mee te ondertekenen</translation>
+        <translation>Het Mastercoinadres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3199,7 +3199,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Mastercoin 
     </message>
     <message>
         <source>The Mastercoin address the message was signed with</source>
-        <translation>Het Dashadres waarmee het bericht ondertekend is</translation>
+        <translation>Het Mastercoinadres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Mastercoin address</source>

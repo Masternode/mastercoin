@@ -121,7 +121,7 @@ bool fLiteMode = false;
 int nWalletBackups = 10;
 
 const char * const BITCOIN_CONF_FILENAME = "mastercoin.conf";
-const char * const BITCOIN_PID_FILENAME = "dashd.pid";
+const char * const BITCOIN_PID_FILENAME = "mastercoind.pid";
 
 CCriticalSection cs_args;
 std::map<std::string, std::string> mapArgs;
@@ -555,13 +555,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\DashCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\DashCore
-    // Mac: ~/Library/Application Support/DashCore
-    // Unix: ~/.dashcore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\MastercoinCore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\MastercoinCore
+    // Mac: ~/Library/Application Support/MastercoinCore
+    // Unix: ~/.mastercoincore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "DashCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "MastercoinCore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -571,10 +571,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/DashCore";
+    return pathRet / "Library/Application Support/MastercoinCore";
 #else
     // Unix
-    return pathRet / ".dashcore";
+    return pathRet / ".mastercoincore";
 #endif
 #endif
 }

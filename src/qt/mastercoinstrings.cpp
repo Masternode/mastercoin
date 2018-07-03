@@ -8,7 +8,7 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *dash_strings[] = {
+static const char UNUSED *mastercoin_strings[] = {
 QT_TRANSLATE_NOOP("mastercoin-core", "Mastercoin Core"),
 QT_TRANSLATE_NOOP("mastercoin-core", "The %s developers"),
 QT_TRANSLATE_NOOP("mastercoin-core", ""

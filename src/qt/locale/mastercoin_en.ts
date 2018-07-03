@@ -5009,7 +5009,7 @@ https://www.transifex.com/projects/p/mastercoin/</translation>
 <context>
     <name>mastercoin-core</name>
     <message>
-        <location filename="../dashstrings.cpp" line="+33"/>
+        <location filename="../mastercoinstrings.cpp" line="+33"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>

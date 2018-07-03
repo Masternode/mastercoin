@@ -2,7 +2,7 @@
 
 #include "governance.h"
 
-#include "test/test_dash.h"
+#include "test/test_mastercoin.h"
 
 #include <boost/test/unit_test.hpp>
 

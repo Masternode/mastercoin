@@ -58,8 +58,8 @@ public:
     enum Unit
     {
         MASTERCOIN,
-        mDASH,
-        uDASH,
+        mMASTERCOIN,
+        uMASTERCOIN,
         duffs
     };
 

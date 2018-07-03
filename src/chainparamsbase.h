@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between mastercoin-cli and dashd)
+ * CBaseChainParams defines the base parameters (shared between mastercoin-cli and mastercoind)
  * of a given instance of the Mastercoin system.
  */
 class CBaseChainParams
