@@ -22,7 +22,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Mastercoin-Qt (on Mac) or
-dashd/mastercoin-qt (on Linux).
+mastercoind/mastercoin-qt (on Linux).
 
 Downgrade warning
 -----------------
@@ -152,7 +152,7 @@ New cmd-line options:
 - backported from Bitcoin Core 0.13/0.14: `blockreconstructionextratxn`, `maxtimeadjustment`, `maxtipage`,
 `incrementalrelayfee`, `dustrelayfee`, `blockmintxfee`.
 
-See `Help -> Command-line options` in Qt wallet or `dashd --help` for more info.
+See `Help -> Command-line options` in Qt wallet or `mastercoind --help` for more info.
 
 New Masternode Information Dialog
 ---------------------------------
@@ -366,7 +366,7 @@ See detailed [change log](https://github.com/masternode/mastercoin/compare/v0.12
 - [`836e10471`](https://github.com/masternode/mastercoin/commit/836e10471) Bump proto to 70210 (#2109)
 - [`23ba94b37`](https://github.com/masternode/mastercoin/commit/23ba94b37) Bump remaining min protocols (#2097)
 - [`9299a84b1`](https://github.com/masternode/mastercoin/commit/9299a84b1) Bump few consts (#2096)
-- [`7b43720f0`](https://github.com/masternode/mastercoin/commit/7b43720f0) Fix copying of final binaries into dashcore-binaries (#2090)
+- [`7b43720f0`](https://github.com/masternode/mastercoin/commit/7b43720f0) Fix copying of final binaries into mastercoincore-binaries (#2090)
 - [`cc593615e`](https://github.com/masternode/mastercoin/commit/cc593615e) Bump copyright year to 2018 (#2087)
 - [`2129ee4d8`](https://github.com/masternode/mastercoin/commit/2129ee4d8) Add docker support when doing Gitian builds (#2084)
 - [`6a1456ef4`](https://github.com/masternode/mastercoin/commit/6a1456ef4) Update gitian key for codablock (#2085)
@@ -382,7 +382,7 @@ See detailed [change log](https://github.com/masternode/mastercoin/compare/v0.12
 - [`b07503f01`](https://github.com/masternode/mastercoin/commit/b07503f01) Some cleanup (mostly trivial) (#2038)
 - [`f8e5c5d56`](https://github.com/masternode/mastercoin/commit/f8e5c5d56) Simplify spork defaults by using a map (#2037)
 - [`6dd8304a5`](https://github.com/masternode/mastercoin/commit/6dd8304a5) Remove duplication of "class CBlockIndex;" (#2036)
-- [`4ea790377`](https://github.com/masternode/mastercoin/commit/4ea790377) Dashify lib names (#2035)
+- [`4ea790377`](https://github.com/masternode/mastercoin/commit/4ea790377) Mastercoinify lib names (#2035)
 - [`53093c65b`](https://github.com/masternode/mastercoin/commit/53093c65b) Run tests in mocked time (#2031)
 - [`f7b9aae27`](https://github.com/masternode/mastercoin/commit/f7b9aae27) Correctly update pindexBestHeader and pindexBestInvalid in InvalidateBlock (#2029)
 - [`8b09e779b`](https://github.com/masternode/mastercoin/commit/8b09e779b) Bump testnet checkpoint and nMinimumChainWork/defaultAssumeValid params (#2026)
@@ -427,10 +427,10 @@ See detailed [change log](https://github.com/masternode/mastercoin/compare/v0.12
 - [`9cee4193b`](https://github.com/masternode/mastercoin/commit/9cee4193b) Separate .h generation from .json/.raw for different modules (#1870)
 - [`83957f2d3`](https://github.com/masternode/mastercoin/commit/83957f2d3) Fix alertTests.raw.h (again) (#1869)
 - [`c13afaad8`](https://github.com/masternode/mastercoin/commit/c13afaad8) Fix alertTests.raw.h generation (#1868)
-- [`a46bf120b`](https://github.com/masternode/mastercoin/commit/a46bf120b) Don't directly call "wine test_dash.exe" and let "make check" handle it (#1841)
-- [`e805f790e`](https://github.com/masternode/mastercoin/commit/e805f790e) Automatically build and push docker image to docker.io/masternode/dashd-develop (#1809)
-- [`d9058aa04`](https://github.com/masternode/mastercoin/commit/d9058aa04) Increase travis timeout for "wine src/test/test_dash.exe" call (#1820)
-- [`10786fe8e`](https://github.com/masternode/mastercoin/commit/10786fe8e) Use travis_wait for "wine test_dash.exe" call to fix timeouts (#1812)
+- [`a46bf120b`](https://github.com/masternode/mastercoin/commit/a46bf120b) Don't directly call "wine test_mastercoin.exe" and let "make check" handle it (#1841)
+- [`e805f790e`](https://github.com/masternode/mastercoin/commit/e805f790e) Automatically build and push docker image to docker.io/masternode/mastercoind-develop (#1809)
+- [`d9058aa04`](https://github.com/masternode/mastercoin/commit/d9058aa04) Increase travis timeout for "wine src/test/test_mastercoin.exe" call (#1820)
+- [`10786fe8e`](https://github.com/masternode/mastercoin/commit/10786fe8e) Use travis_wait for "wine test_mastercoin.exe" call to fix timeouts (#1812)
 - [`4bce3bf8b`](https://github.com/masternode/mastercoin/commit/4bce3bf8b) Fix crash on exit when -createwalletbackups=0 (#1810)
 - [`cd9c6994c`](https://github.com/masternode/mastercoin/commit/cd9c6994c) Implement named devnets (#1791)
 - [`ebbd26a05`](https://github.com/masternode/mastercoin/commit/ebbd26a05) Drop IsInputAssociatedWithPubkey and optimize CheckOutpoint (#1783)

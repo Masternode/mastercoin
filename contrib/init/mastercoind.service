@@ -3,13 +3,13 @@ Description=Mastercoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=mastercoincore
+Group=mastercoincore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/mastercoin.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/mastercoind/mastercoind.pid
+ExecStart=/usr/bin/mastercoind -daemon -pid=/var/lib/mastercoind/mastercoind.pid \
+-conf=/etc/mastercoincore/mastercoin.conf -datadir=/var/lib/mastercoind -disablewallet
 
 Restart=always
 PrivateTmp=true

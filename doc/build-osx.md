@@ -53,24 +53,24 @@ Build Mastercoin Core
 Running
 -------
 
-Mastercoin Core is now available at `./src/dashd`
+Mastercoin Core is now available at `./src/mastercoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=dashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DashCore/mastercoin.conf"
+    echo -e "rpcuser=mastercoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/MastercoinCore/mastercoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/DashCore/mastercoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/MastercoinCore/mastercoin.conf"
 
-The first time you run dashd, it will start downloading the blockchain. This process could take several hours.
+The first time you run mastercoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/DashCore/debug.log
+    tail -f $HOME/Library/Application\ Support/MastercoinCore/debug.log
 
 Other commands:
 -------
 
-    ./src/dashd -daemon # Starts the mastercoin daemon.
+    ./src/mastercoind -daemon # Starts the mastercoin daemon.
     ./src/mastercoin-cli --help # Outputs a list of command-line options.
     ./src/mastercoin-cli help # Outputs a list of RPC commands when the daemon is running.
 

@@ -8,6 +8,6 @@ Comment[tr]=Mastercoin, eşten eşe kriptografik sanal para birimi
 Exec=mastercoin-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
+Icon=mastercoin128
 MimeType=x-scheme-handler/mastercoin;
 Categories=Office;Finance;

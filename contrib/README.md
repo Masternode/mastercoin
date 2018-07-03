@@ -13,7 +13,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Mastercoin network. This means one can have an always-on dashd instance running, and another local dashd/mastercoin-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Mastercoin network. This means one can have an always-on mastercoind instance running, and another local mastercoind/mastercoin-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -22,8 +22,8 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package dashd/mastercoin-qt
-for Debian-based Linux systems. If you compile dashd/mastercoin-qt yourself, there are some useful files here.
+Contains files used to package mastercoind/mastercoin-qt
+for Debian-based Linux systems. If you compile mastercoind/mastercoin-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Notes on getting Gitian builds up and running using KVM.

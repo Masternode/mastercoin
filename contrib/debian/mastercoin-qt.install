@@ -1,6 +1,6 @@
 usr/local/bin/mastercoin-qt usr/bin
-share/pixmaps/dash32.xpm usr/share/pixmaps
-share/pixmaps/dash16.xpm usr/share/pixmaps
-share/pixmaps/dash128.png usr/share/pixmaps
+share/pixmaps/mastercoin32.xpm usr/share/pixmaps
+share/pixmaps/mastercoin16.xpm usr/share/pixmaps
+share/pixmaps/mastercoin128.png usr/share/pixmaps
 debian/mastercoin-qt.desktop usr/share/applications
 debian/mastercoin-qt.protocol usr/share/kde4/services/

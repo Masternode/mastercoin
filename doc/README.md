@@ -12,7 +12,7 @@ The following are some helpful notes on how to run Mastercoin on your native pla
 Unpack the files into a directory and run:
 
 - `bin/mastercoin-qt` (GUI) or
-- `bin/dashd` (headless)
+- `bin/mastercoind` (headless)
 
 ### Windows
 
@@ -26,7 +26,7 @@ Drag Mastercoin-Qt to your applications folder, and then run Mastercoin-Qt.
 
 * See the [Mastercoin documentation](https://masternode.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [Mastercoin Nation Discord](http://dashchat.org)
+* Ask for help on [Mastercoin Nation Discord](http://mastercoinchat.org)
 * Ask for help on the [Mastercoin Forum](https://mastercoin.org/forum)
 
 Building
@@ -58,7 +58,7 @@ The Mastercoin Core repo's [root README](/README.md) contains relevant informati
 
 ### Resources
 * Discuss on the [Mastercoin Forum](https://mastercoin.org/forum), in the Development & Technical Discussion board.
-* Discuss on [Mastercoin Nation Discord](http://dashchat.org)
+* Discuss on [Mastercoin Nation Discord](http://mastercoinchat.org)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

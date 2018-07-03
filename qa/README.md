@@ -50,9 +50,9 @@ Possible options, which apply to each individual test run:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave dashds and test.* datadir on exit or error
-  --noshutdown          Don't stop dashds after the test execution
-  --srcdir=SRCDIR       Source directory containing dashd/mastercoin-cli
+  --nocleanup           Leave mastercoinds and test.* datadir on exit or error
+  --noshutdown          Don't stop mastercoinds after the test execution
+  --srcdir=SRCDIR       Source directory containing mastercoind/mastercoin-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -77,7 +77,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall dashd
+killall mastercoind
 ```
 
 Writing tests

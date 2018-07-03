@@ -20,7 +20,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Mastercoin-Qt (on Mac) or
-dashd/mastercoin-qt (on Linux).
+mastercoind/mastercoin-qt (on Linux).
 
 Downgrade warning
 -----------------
@@ -78,7 +78,7 @@ New: `assumevalid`, `blocksonly`, `reindex-chainstate`
 
 Experimental: `usehd`, `mnemonic`, `mnemonicpassphrase`, `hdseed`
 
-See `Help -> Command-line options` in Qt wallet or `dashd --help` for more info.
+See `Help -> Command-line options` in Qt wallet or `mastercoind --help` for more info.
 
 PrivateSend improvements
 ------------------------
@@ -155,7 +155,7 @@ Detailed [change log](https://github.com/masternode/mastercoin/compare/v0.12.1.x
 - [`bcf5455bf`](https://github.com/masternode/mastercoin/commit/bcf5455bf) Backport Bitcoin PR#8822: net: Consistent checksum handling (#1565)
 - [`df6d458b8`](https://github.com/masternode/mastercoin/commit/df6d458b8) Backport Bitcoin PR#9260: Mrs Peacock in The Library with The Candlestick (killed main.{h,cpp}) (#1566)
 - [`42c784dc7`](https://github.com/masternode/mastercoin/commit/42c784dc7) Backport Bitcoin PR#9289: net: drop boost::thread_group (#1568)
-- [`b9c67258b`](https://github.com/masternode/mastercoin/commit/b9c67258b) Backport Bitcoin PR#9609: net: fix remaining net assertions (#1575) + Dashify
+- [`b9c67258b`](https://github.com/masternode/mastercoin/commit/b9c67258b) Backport Bitcoin PR#9609: net: fix remaining net assertions (#1575) + Mastercoinify
 - [`2472999da`](https://github.com/masternode/mastercoin/commit/2472999da) Backport Bitcoin PR#9441: Net: Massive speedup. Net locks overhaul (#1586)
 - [`ccee103a0`](https://github.com/masternode/mastercoin/commit/ccee103a0) Backport "assumed valid blocks" feature from Bitcoin 0.13 (#1582)
 - [`105122181`](https://github.com/masternode/mastercoin/commit/105122181) Partially backport Bitcoin PR#9626: Clean up a few CConnman cs_vNodes/CNode things (#1591)
@@ -318,12 +318,12 @@ Detailed [change log](https://github.com/masternode/mastercoin/compare/v0.12.1.x
 - [`7a5943c3a`](https://github.com/masternode/mastercoin/commit/7a5943c3a) Merge pull request #1431 from masternode/v0.12.2.x-merge_upstream
 - [`8bbcf6200`](https://github.com/masternode/mastercoin/commit/8bbcf6200) Fixed pow (test and algo) (#1415)
 - [`f3b92a95d`](https://github.com/masternode/mastercoin/commit/f3b92a95d) c++11: don't throw from the reverselock destructor (#1421)
-- [`b40f8f333`](https://github.com/masternode/mastercoin/commit/b40f8f333) Rename bitcoinconsensus library to dashconsensus. (#1432)
+- [`b40f8f333`](https://github.com/masternode/mastercoin/commit/b40f8f333) Rename bitcoinconsensus library to mastercoinconsensus. (#1432)
 - [`28a1d0ecc`](https://github.com/masternode/mastercoin/commit/28a1d0ecc) Fix the same header included twice. (#1474)
 - [`adf97e12a`](https://github.com/masternode/mastercoin/commit/adf97e12a) fix travis ci mac build (#1483)
 - [`a28fa724c`](https://github.com/masternode/mastercoin/commit/a28fa724c) fix BIP34 starting blocks for mainnet/testnet (#1476)
 - [`bea548c61`](https://github.com/masternode/mastercoin/commit/bea548c61) adjust/fix some log and error messages (#1484)
-- [`715504357`](https://github.com/masternode/mastercoin/commit/715504357) Dashify bitcoin unix executables (#1486)
+- [`715504357`](https://github.com/masternode/mastercoin/commit/715504357) Mastercoinify bitcoin unix executables (#1486)
 - [`1d67d5212`](https://github.com/masternode/mastercoin/commit/1d67d5212) Don't try to create empty datadir before the real path is known (#1494)
 - [`549b659e8`](https://github.com/masternode/mastercoin/commit/549b659e8) Force self-recheck on CActiveMasternode::ManageStateRemote() (#1441)
 - [`96f0d6ec2`](https://github.com/masternode/mastercoin/commit/96f0d6ec2) various trivial cleanup fixes (#1501)

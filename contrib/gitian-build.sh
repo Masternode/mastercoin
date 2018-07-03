@@ -277,7 +277,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./dashcore-binaries/${VERSION}
+	mkdir -p ./mastercoincore-binaries/${VERSION}
 	
 	# Build Dependencies
 	echo ""
@@ -297,7 +297,7 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit mastercoin=${COMMIT} --url mastercoin=${url} ../mastercoin/contrib/gitian-descriptors/gitian-linux.yml
 	    ./bin/gsign -p "$signProg" --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs/ ../mastercoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/dashcore-*.tar.gz build/out/src/dashcore-*.tar.gz ../dashcore-binaries/${VERSION}
+	    mv build/out/mastercoincore-*.tar.gz build/out/src/mastercoincore-*.tar.gz ../mastercoincore-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -307,8 +307,8 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit mastercoin=${COMMIT} --url mastercoin=${url} ../mastercoin/contrib/gitian-descriptors/gitian-win.yml
 	    ./bin/gsign -p "$signProg" --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../mastercoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/dashcore-*-win-unsigned.tar.gz inputs/dashcore-win-unsigned.tar.gz
-	    mv build/out/dashcore-*.zip build/out/dashcore-*.exe ../dashcore-binaries/${VERSION}
+	    mv build/out/mastercoincore-*-win-unsigned.tar.gz inputs/mastercoincore-win-unsigned.tar.gz
+	    mv build/out/mastercoincore-*.zip build/out/mastercoincore-*.exe ../mastercoincore-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -318,8 +318,8 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit mastercoin=${COMMIT} --url mastercoin=${url} ../mastercoin/contrib/gitian-descriptors/gitian-osx.yml
 	    ./bin/gsign -p "$signProg" --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../mastercoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/dashcore-*-osx-unsigned.tar.gz inputs/dashcore-osx-unsigned.tar.gz
-	    mv build/out/dashcore-*.tar.gz build/out/dashcore-*.dmg ../dashcore-binaries/${VERSION}
+	    mv build/out/mastercoincore-*-osx-unsigned.tar.gz inputs/mastercoincore-osx-unsigned.tar.gz
+	    mv build/out/mastercoincore-*.tar.gz build/out/mastercoincore-*.dmg ../mastercoincore-binaries/${VERSION}
 	fi
 	popd
 
@@ -383,8 +383,8 @@ then
 	    echo ""
 	    ./bin/gbuild -i --commit signature=${COMMIT} ../mastercoin/contrib/gitian-descriptors/gitian-win-signer.yml
 	    ./bin/gsign -p "$signProg" --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../mastercoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/dashcore-*win64-setup.exe ../dashcore-binaries/${VERSION}
-	    mv build/out/dashcore-*win32-setup.exe ../dashcore-binaries/${VERSION}
+	    mv build/out/mastercoincore-*win64-setup.exe ../mastercoincore-binaries/${VERSION}
+	    mv build/out/mastercoincore-*win32-setup.exe ../mastercoincore-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -394,7 +394,7 @@ then
 	    echo ""
 	    ./bin/gbuild -i --commit signature=${COMMIT} ../mastercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	    ./bin/gsign -p "$signProg" --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../mastercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/dashcore-osx-signed.dmg ../dashcore-binaries/${VERSION}/dashcore-${VERSION}-osx.dmg
+	    mv build/out/mastercoincore-osx-signed.dmg ../mastercoincore-binaries/${VERSION}/mastercoincore-${VERSION}-osx.dmg
 	fi
 	popd
 

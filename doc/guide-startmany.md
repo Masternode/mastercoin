@@ -74,7 +74,7 @@ If you generated a new masternode private key, you will need to update the remot
 
 Shut down the daemon and then edit the file.
 
-```nano .dashcore/mastercoin.conf```
+```nano .mastercoincore/mastercoin.conf```
 
 ### Edit the masternodeprivkey
 If you generated a new masternode private key, you will need to update the `masternodeprivkey` value in your remote `mastercoin.conf` file.
@@ -128,6 +128,6 @@ Command output should have "_Masternode successfully started_" in its `status` f
 
 ### Local
 
-Search your Masternodes on https://dashninja.pl/masternodes.html
+Search your Masternodes on https://mastercoinninja.pl/masternodes.html
 
 _Hint: Bookmark it, you definitely will be using this site a lot._

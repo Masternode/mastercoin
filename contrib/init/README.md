@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.mastercoin.dashd.plist
+SystemD: mastercoind.service
+Upstart: mastercoind.conf
+OpenRC:  mastercoind.openrc
+         mastercoind.openrcconf
+CentOS:  mastercoind.init
+OS X:    org.mastercoin.mastercoind.plist
 
 have been made available to assist packagers in creating node packages here.
 
