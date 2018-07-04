@@ -1,4 +1,4 @@
-Mastercoin Core 0.12.1
+Mastercoin Core 1.0.0.1
 =====================
 
 Intro
