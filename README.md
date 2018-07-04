@@ -1,4 +1,4 @@
-Mastercoin Core staging tree 0.12.3
+Mastercoin Core staging tree 1.0.0.1
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/masternode/mastercoin.svg?branch=master)](https://travis-ci.org/masternode/mastercoin) `develop:` [![Build Status](https://travis-ci.org/masternode/mastercoin.svg?branch=develop)](https://travis-ci.org/masternode/mastercoin/branches)
